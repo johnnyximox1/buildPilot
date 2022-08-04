@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <style>
+    .slick span {
+  display: block;
+  background: #000;
+  color: #fff;
+  font-size: 36px;
+  height: 10wh;
+  line-height: 30vh;
+	  line-height: 120px;
+  position: relative;
+  text-align: center;
+  transform: translate(0, 0) scale(0.4);
+  transition: all 0.4s ease;
+  opacity: 0.8;
+/*   background: url('https://i.picsum.photos/id/174/536/354.jpg?hmac=BfySTNvwCB_IZZueijD4RPBFgdEyPtIJRFTotFQ7Bz0'); */
+  background-repeat: no-repeat;
+  background-size: 40vw 40vh;
+}
+
+/* .slick-slide {
+  border: solid 1px #2dc37f;
+}
+ */
+.slick-slide.lt2 span {
+  transform: translate(10%, 0) scale(0.6);
+}
+
+.slick-slide.lt1 span {
+  opacity: 0.7;
+  transform: translate(5%, 0) scale(0.8);
+}
+
+.slick-slide.gt1 span {
+  opacity: 0.7;
+  transform: translate(-5%, 0) scale(0.8);
+}
+
+.slick-slide.gt2 span {
+  transform: translate(-10%, 0) scale(0.6);
+}
+
+.slick-slide.slick-center span {
+  z-index: 1;
+  transform: scale(1);
+  opacity: 1;
+  color: #fff;
+  background: #0056FF;
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  appearance: none;
+  margin-top: -10px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  color: transparent;
+  outline: none;
+  z-index: 100;
+}
+
+.slick-prev {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 15px 15px 0;
+  border-color: transparent #007bff transparent transparent;
+  left: 0;
+}
+
+.slick-next {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 0 15px 15px;
+  border-color: transparent transparent transparent #007bff;
+  right: 0;
+}
+
+/* Custom added CSS */
+.main-wrapper-box {
+  position:relative; 
+  width: 100%;
+  
+}
+.inside-wrapper-box-1 {
+  background: green;
+}
+
+.box-1 figure {
+  width: 110%;
+/*   background: #0056FF; */
+  margin-left: -20px;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+button.outline {
+  position: relative;
+  z-index: 3;
+  background: transparent;
+  color: #1172c4;
+  font-size: 14px;
+  border-color: #1172c4;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 22px;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  transition: all 0.2s linear;
+}
+button.outline a {
+  text-decoration: none;
+}
+button.outline:hover {
+  color: white;
+  background: #1172c4;
+  border-color: white;
+  transition: all 0.2s linear;
+}
+button.outline:active {
+  border-radius: 22px;
+}
+
+..slick span figure figcaption table button {
+  background: red;
+}
+
+.slick-prev.slick-arrow:hover {
+    background: none;
+}
+
+</style>
+</head>
+
+<body>
+    <div class="slick">
+        <div class="box-1">
+            <span>
+                <figure>
+                    <img src="assets/img/Page%201.jpg" alt="Trulli" style="width:100%">
+                 
+                </figure>
+
+            </span>
+
+
+        </div>
+
+
+        <div class="box-1">
+            <span>
+                <figure>
+                    <img src="assets/img/Page%201.jpg" alt="Trulli" style="width:100%">
+                
+                </figure>
+
+            </span>
+
+
+        </div>
+
+
+        <div class="box-1">
+            <span>
+                <figure>
+                    <img src="assets/img/Page%201.jpg" alt="Trulli" style="width:100%">
+                
+                </figure>
+
+            </span>
+
+
+        </div>
+
+
+        <div class="box-1">
+            <span>
+                <figure>
+                    <img src="assets/img/Page%201.jpg" alt="Trulli" style="width:100%">
+                   
+                </figure>
+
+            </span>
+
+
+        </div>
+
+        <div class="box-1">
+            <span>
+                <figure>
+                    <img src="assets/img/Page%201.jpg" alt="Trulli" style="width:100%">
+                   
+                </figure>
+
+            </span>
+
+
+        </div>
+
+
+        <div class="box-1">
+            <span>
+                <figure>
+                    <img src="assets/img/Page%201.jpg" alt="Trulli" style="width:100%">
+                   
+                </figure>
+
+            </span>
+
+
+        </div>
+
+    </div>
+
+
+<!--js-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+    $('.slick')
+  .on('init', () => {
+    $('.slick-slide[data-slick-index="-1"]').addClass('lt2');
+    $('.slick-slide[data-slick-index="-0"]').addClass('lt1');
+    $('.slick-slide[data-slick-index="1"]').addClass('gt1');
+    // $('.slick-slide[data-slick-index="2"]').addClass('gt2');
+})
+  .slick({
+  centerMode: true,
+  centerPadding: 0,
+  slidesToShow: 3
+}).on('beforeChange', (event, slick, current, next) => {
+  $('.slick-slide.gt2').removeClass('gt2');
+  $('.slick-slide.gt1').removeClass('gt1');
+  $('.slick-slide.lt1').removeClass('lt1');
+  $('.slick-slide.lt2').removeClass('lt2');
+
+  const lt2 = (current < next && current > 0) ? current - 1 : next - 2;
+  const lt1 = (current < next && current > 0) ? current : next - 1;
+  const gt1 = (current < next || next === 0) ? next + 1 : current;
+  const gt2 = (current < next || next === 0) ? next + 2 : current + 1;
+
+  $(`.slick-slide[data-slick-index="${lt2}"]`).addClass('lt2');
+  $(`.slick-slide[data-slick-index="${lt1}"]`).addClass('lt1');
+  $(`.slick-slide[data-slick-index="${gt1}"]`).addClass('gt1');
+  $(`.slick-slide[data-slick-index="${gt2}"]`).addClass('gt2');
+
+  // Clone processing when moving from 5 to 0
+  if (current === 5 && next === 0) {
+    $(`.slick-slide[data-slick-index="${current - 1}"]`).addClass('lt2');
+    $(`.slick-slide[data-slick-index="${current}"]`).addClass('lt1');
+    $(`.slick-slide[data-slick-index="${current + 2}"]`).addClass('gt1');
+    $(`.slick-slide[data-slick-index="${current + 3}"]`).addClass('gt2');
+  }
+
+  // Clone processing when moving from 0 to 5
+  if (current === 0 && next === 5) {
+    $(`.slick-slide[data-slick-index="${current - 1}"]`).addClass('gt2');
+    $(`.slick-slide[data-slick-index="${current}"]`).addClass('gt1');
+    $(`.slick-slide[data-slick-index="${current - 2}"]`).addClass('lt1');
+    $(`.slick-slide[data-slick-index="${current - 3}"]`).addClass('lt2');
+  }
+
+  console.log('beforeChange', current, ':', lt2, lt1, next, gt1, gt2);
+});
+    </script>
+    
+    
+
+</body></html>
