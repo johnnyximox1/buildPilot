@@ -1,0 +1,9 @@
+
+.fluidgap {
+       padding: 0px 100px !important;
+}
+.v-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
