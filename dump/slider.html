@@ -236,12 +236,12 @@ button.outline:active {
     $('.slick-slide[data-slick-index="-1"]').addClass('lt2');
     $('.slick-slide[data-slick-index="-0"]').addClass('lt1');
     $('.slick-slide[data-slick-index="1"]').addClass('gt1');
-    // $('.slick-slide[data-slick-index="2"]').addClass('gt2');
+     $('.slick-slide[data-slick-index="2"]').addClass('gt2');
 })
   .slick({
   centerMode: true,
   centerPadding: 0,
-  slidesToShow: 3
+  slidesToShow: 5
 }).on('beforeChange', (event, slick, current, next) => {
   $('.slick-slide.gt2').removeClass('gt2');
   $('.slick-slide.gt1').removeClass('gt1');

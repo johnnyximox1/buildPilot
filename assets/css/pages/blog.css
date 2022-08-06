@@ -1,0 +1,17 @@
+#section1Blog{
+
+
+/*height: 100vh;*/
+    margin-top: -80px;
+}
+.secContent {
+    height: 100vh;
+}
+.blogSeconeContentPadding {
+ padding-left: 150px;   
+}
+.blogsecOneImg{
+        position: absolute;
+    right: 0;
+    bottom: 0;
+}
