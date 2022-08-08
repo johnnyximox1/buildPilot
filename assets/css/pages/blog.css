@@ -1,3 +1,5 @@
+/*section one*/
+/*section one*/
 #section1Blog{
 
 
@@ -10,8 +12,27 @@
 .blogSeconeContentPadding {
  padding-left: 150px;   
 }
-.blogsecOneImg{
-        position: absolute;
+.blogsecOneImg img{
+    position: absolute;
     right: 0;
     bottom: 0;
 }
+/*section two*/
+/*section two*/
+#section2Blog{}
+.blogInside{}
+.blogInside .tags a {
+    border: 1px solid #868C9B;
+    padding: 2px 2px;
+    text-decoration: none;
+    color: #868C9B;
+    font-size: 9px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.blogInside p {
+    font-size: 12px;
+}
+
+/*section three*/
+/*section three*/

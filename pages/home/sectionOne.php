@@ -1,5 +1,4 @@
-
-       <div class="section1Home" id="section1Home">
+   <div class="section1Home" id="section1Home" style="background-image: url(assets/img/sectionOneHomebg.jpg);">
         <div class="container-fluid fluidgap">
             <div class="row  justify-content-center">
                 <div class="col-lg-6 v-center secContent">
@@ -32,11 +31,14 @@
                             <p>Alreadyhave anaccount? <strong> Login</strong></p>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
-    </div>
-           
+        <div class="seconeMobile">
+            <img src="assets/img/homeSecOneMobile.png" alt="" class="img-fluid">
+        </div>
+        <div class="seconeHouse">
+                     <img src="assets/img/homesecOneHouse.png" alt="" class="img-fluid">
+        </div>
         
+    </div>

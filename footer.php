@@ -98,21 +98,27 @@
 
 
 <!--bootstrap cdn-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<!--  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>-->
 
 <!--bootstrap local-->
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
 <!--owl-->
- <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>-->
-  <script src="owl/jquery-3.5.1.min.js"></script>
+<!--   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>-->
+<!--jquery-->
+ <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <!-- <script src="assets/js/jquery-3.5.1.min.js"></script> -->
+  <!-- <script src="assets/js/jquery-3.3.1.min.js"></script> -->
 <!--  owl-->
-  <script src="owl/owl.carousel.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script> -->
+  <script src="assets/js/owl/owl.carousel.js"></script>
   <script src="assets/js/owl/owlCustom.js"></script>
+
   
 <!--  slick-->
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
-  <script src="assets/js/slickcustom.js"></script>
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>-->
+  <script src="assets/js/slick/slick.js"></script>
+  <script src="assets/js/slick/slickcustom.js"></script>
 
   </body>
 
