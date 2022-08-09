@@ -28,6 +28,7 @@
     <!--pages-->
    <link rel="stylesheet" href="assets/css/pages/home.css" />
     <link rel="stylesheet" href="assets/css/pages/blog.css" />
+    <link rel="stylesheet" href="assets/css/pages/explorehome.css" />
 
     <!--    owl css-->
 
