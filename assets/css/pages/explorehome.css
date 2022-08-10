@@ -25,3 +25,10 @@
     width: 50%;
 }
 
+#owl2 .owl-item img{
+ height: 50px;   
+}
+
+#owl2 .owl-nav{
+display: none;
+}
