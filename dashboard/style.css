@@ -1,4 +1,4 @@
-.dashboard1sec1{    background-image: url(../assets/img/sectionOneHomebg.jpg);
+.dashboard1sec1{  
     margin-top: -80px;
 }
 .pageheight {
@@ -16,7 +16,15 @@
     background: white;
     
 }
-
-.dashboard1sec1 .container {
+.right-pills {
+    display: flex;
+    justify-content: end;
+}
+.fixedWidthContainer .container {
     width: 1000px !important;
+}
+.profileDetails .profileSignle {
+    background: white;
+
+ 
 }
