@@ -24,7 +24,12 @@
     width: 1000px !important;
 }
 .profileDetails .profileSignle {
-    background: white;
-
+  
+padding: 25px;
+ 
+}
+.builderDetails .profileSignle {
+  
+padding: 25px;
  
 }
