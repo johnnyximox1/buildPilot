@@ -1,0 +1,22 @@
+.dashboard1sec1{    background-image: url(../assets/img/sectionOneHomebg.jpg);
+    margin-top: -80px;
+}
+.pageheight {
+    height: 100vh;
+}
+.fluidgap {
+       padding: 0px 100px !important;
+}
+.v-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dashpageOneBox{
+    background: white;
+    
+}
+
+.dashboard1sec1 .container {
+    width: 1000px !important;
+}
