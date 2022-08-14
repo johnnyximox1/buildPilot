@@ -33,3 +33,21 @@ padding: 25px;
 padding: 25px;
  
 }
+.dashboardPageSeven .profileSignle{
+    margin: 0px 25px;
+    padding: 25px 0px;
+ border-bottom: 3px solid grey;
+}
+.dashboardPageSeven .profileSignle:last-child{
+ 
+ border-bottom: none;
+}
+
+.profileSignle .form-control{
+    text-align: right;
+    border: none;
+}
+.profileSignle .input-group span {
+    border: none;
+    background: white;
+}
