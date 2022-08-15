@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../footer.css">
     <link rel="stylesheet" href="../imgzoominout.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/panzoom.css" />
 </head>
 
 <body>
@@ -42,11 +44,25 @@
                     </div>
                     <div class="">
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-8">
+                                <div class="">
+                                    <div id="myPanzoom" class="panzoom" style="">
+                                        <img class="panzoom__content" src="../../assets/img/dashboard/page6dashboard.jpg" alt="" />
 
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-lg-6">
-                                
+                            <div class="col-lg-4">
+                                <form>
+                              <div class="mb-3 myPanzoomform">
+  
+  <div class="form-floating">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 450px"></textarea>
+  <label for="floatingTextarea2">Comments</label>
+</div>
+</div>
+
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -108,6 +124,15 @@
     <script src="../../assets/js/bootstrap.bundle.min.js"></script>
 
     <script src="../dashboard.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    <script>
+        const myPanzoom = new Panzoom(document.querySelector("#myPanzoom"));
+
+        // Methods usage example:
+        myPanzoom.toggleZoom();
+    </script>
 
 </body>
 

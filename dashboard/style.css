@@ -7,11 +7,7 @@
 .fluidgap {
        padding: 0px 100px !important;
 }
-.v-center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 .dashpageOneBox{
     background: white;
     
@@ -50,4 +46,63 @@ padding: 25px;
 .profileSignle .input-group span {
     border: none;
     background: white;
+}
+.dashboard9sec1 .card {
+    margin: 0 auto;
+}
+#myPanzoom {
+    height: 500px;
+    width: 100%;
+}
+.myPanzoomform {
+    height: 500px;
+    background: white;
+    padding: 20px;
+}
+.dashboard8sec1 textarea {
+    padding:0px 20px;
+}
+.v-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dashboard10sec1 {}
+.dashboard13sec1 .milesttonesRwo .custombtn{
+  background: white;
+    color:  orange;
+    padding: 10px;
+}
+.dashboard13sec1 .milesttonesRwo .custombtn span:first-child{
+ float: left;
+}
+.dashboard13sec1 .milesttonesRwo .custombtn span:last-child{
+  float: right;
+}
+
+.
+.dashboard14sec1 input[type=file] {
+    display: none;
+}
+.dashboard14sec1 .choose-btn {
+    border-radius: 2px;
+    margin: 10px;
+    float: left;
+    background: #555;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-family: arial;
+    font-size: 13px;
+}
+.dashboard14sec1 .choose-btn:hover {
+    background: #24c7c7;
+}
+.dashboard14sec1.buildpackRwo{
+    position: relative;
+}
+.dashboard14sec1.buildpackRwo input[type="file"]{
+    visibility: hidden;
+    position: absolute;
 }
