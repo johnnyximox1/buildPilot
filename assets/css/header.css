@@ -8,6 +8,12 @@ nav.navClass {
  
     padding-top: 30px !important
 }
-.nav-link {
-    color: white;
+header .nav-link {
+    color: white !important;
+}
+header .nav-link.active {
+    color: #FFBD59 !important;
+}
+header .nav-link:hover {
+    color: #FFBD59 !important;
 }

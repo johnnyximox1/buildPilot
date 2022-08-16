@@ -1,9 +1,64 @@
+.colorThemeYello {
+    color: #FFBD59;
+}
+
+.colorThemebgYello {
+    color: #FFBD59;
+}
 
 .fluidgap {
-       padding: 0px 100px !important;
+/*    padding: 0px 100px !important;*/
 }
+
 .v-center {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+h1 {
+    font-size: 63px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.customButtonWhite {
+    color: #FFBD59;
+    background: white;
+    border: none;
+    border-radius: 0;
+    height: 50px;
+}
+
+.customButtonWhite:hover {
+    background: #FFBD59;
+    color: white;
+    border: none;
+    border-radius: 0;
+    height: 50px;
+}
+
+.customButtonYello {
+    background: #FFBD59;
+    color: white;
+    border: none;
+    border-radius: 0;
+    height: 50px;
+}
+
+.customButtonYello:hover {
+    color: #FFBD59;
+    background: white;
+    border: none;
+    border-radius: 0;
+    height: 50px;
+}
+.container-fluid    {
+    padding: 0px 100px !important;
 }
