@@ -1,5 +1,9 @@
+/*dashboard page 1*/
+/*dashboard page 1*/
+/*dashboard page 1*/
 .dashboard1sec1{  
     margin-top: -80px;
+    background-position: center 85%;
 }
 .pageheight {
     height: 100vh;
@@ -10,8 +14,42 @@
 
 .dashpageOneBox{
     background: white;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    
+   box-shadow: 3px 3px 25px 5px rgba(156,169,175,0.75);
+-webkit-box-shadow: 3px 3px 25px 5px rgba(156,169,175,0.75);
+-moz-box-shadow: 3px 3px 25px 5px rgba(156,169,175,0.75);
+}
+.dashpageOneBox h5{
+   
+    color: black;
+}
+.dashpageOneBox .icon svg {
+    fill:#FFBD59;
+}
+.dashpageOneBox .icon  {
+    padding-top: 20px;
+}
+.dashpageOneBoxMain {
+     text-decoration: none;
+}
+
+
+/*page 2*/
+
+.tab-pane {
+    margin-top: -60px;
+}
+h1.dashboardTitle {
+    font-size: 40px;
+    font-weight: 400;
     
 }
+
 .right-pills {
     display: flex;
     justify-content: end;

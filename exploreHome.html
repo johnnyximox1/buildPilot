@@ -16,6 +16,7 @@
     <!--    bootstrap cdn css -->
     <!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">-->
     <!--   bootstrap css local-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <!--    common css -->
     <link rel="stylesheet" href="assets/css/common.css" />
@@ -26,9 +27,10 @@
     <!--    footer css -->
     <link rel="stylesheet" href="assets/css/footer.css" />
     <!--pages-->
-    <link rel="stylesheet" href="assets/css/pages/home.css" />
-    <link rel="stylesheet" href="assets/css/pages/blog.css" />
+
     <link rel="stylesheet" href="assets/css/pages/explorehome.css" />
+
+
 
     <!--    owl css-->
 
@@ -52,7 +54,6 @@
 
 </head>
 
-
 <body>
 
     <header>
@@ -64,17 +65,21 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">FEATURES</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">RESOURCES</a>
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">LOGIN</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">PREMIUM</a>
+                            <a class="nav-link" href="#">Link</a>
                         </li>
 
 
@@ -88,217 +93,251 @@
     <!--###########-->
     <!--###########-->
     <!--###########-->
-    <div class="section1Explore" id="section1Explore">
-        <div class="container img2">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 ">
-                    <div class="row secContent">
-                        <div class="col-md-6 v-center">
-                            <div class="">
-                                <h1>We'llhelpmatchyou
-                                    withthe righthome
-                                    builder for free.</h1>
-                                <p>Australianresidence only</p>
-                            </div>
-                            <div class="">
-                                <form action="">
-                                    <div class="input-group mb-3">
-                                        <input type="text" class="form-control" placeholder="Which suburb you are building in?" aria-label="Recipient's username" aria-describedby="button-addon2">
-                                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">GET STARTED</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="col-md-6 v-center">
-                            <div class="exploreCustomCard">
-                                <div class="card mb-3" style="">
-                                    <div class="row g-0">
-                                        <div class="col-md-4">
-                                            <img src="assets/img/explore1secright.jpg" class="img-fluid " alt="...">
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Intelligence</h5>
-                                                <p class="card-text">Wehavedevelopedintelligent software that instantly matches you withfloorplansbasedonyour
-                                                    requirements.</p>
-
-                                            </div>
-                                        </div>
-                                    </div>
+    <!--    section 1-->
+    <!--    section 1-->
+    <!--    section 1-->
+    <section class="section1">
+        <div class="section1Explore" id="section1Explore">
+            <div class="container img2">
+                <div class="row justify-content-center">
+                    <div class="col-lg-11 ">
+                        <div class="row section1ExploreHeight">
+                            <div class="col-md-6 v-center">
+                                <div class="">
+                                    <h1 class="lite text-white">We'll help match you
+                                        with the right home
+                                        builder for free.</h1>
+                                    <p class="text-white"><i>Australian residence only</i></p>
                                 </div>
-                                <div class="card mb-3" style="">
-                                    <div class="row g-0">
-                                        <div class="col-md-4">
-                                            <img src="assets/img/explore1secright.jpg" class="img-fluid " alt="...">
+                                <div class="section1exploreInput">
+                                    <form action="">
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="Which suburb you are building in?" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                            <button class="btn " type="button" id="button-addon2">GET STARTED</button>
                                         </div>
-                                        <div class="col-md-8">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Intelligence</h5>
-                                                <p class="card-text">Wehavedevelopedintelligent software that instantly matches you withfloorplansbasedonyour
-                                                    requirements.</p>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card mb-3" style="">
-                                    <div class="row g-0">
-                                        <div class="col-md-4">
-                                            <img src="assets/img/explore1secright.jpg" class="img-fluid " alt="...">
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Intelligence</h5>
-                                                <p class="card-text">Wehavedevelopedintelligent software that instantly matches you withfloorplansbasedonyour
-                                                    requirements.</p>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card mb-3" style="">
-                                    <div class="row g-0">
-                                        <div class="col-md-4">
-                                            <img src="assets/img/explore1secright.jpg" class="img-fluid " alt="...">
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Intelligence</h5>
-                                                <p class="card-text">Wehavedevelopedintelligent software that instantly matches you withfloorplansbasedonyour
-                                                    requirements.</p>
-
-                                            </div>
-                                        </div>
-                                    </div>
+                                    </form>
                                 </div>
                             </div>
+                            <div class="col-md-6 v-center">
+                                <div class="exploreCustomCard">
+                                    <div class="card mb-3" style="">
+                                        <div class="row g-0">
+                                            <div class="col-md-2 v-center">
+                                                <img src="assets/img/explore/1.png" class="img-fluid " alt="...">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Intelligence</h5>
+                                                    <p class="card-text">Wehavedevelopedintelligent software that instantly matches you withfloorplansbasedonyour
+                                                        requirements.</p>
 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card mb-3" style="">
+                                        <div class="row g-0">
+                                            <div class="col-md-2 v-center">
+                                                <img src="assets/img/explore/2.png" class="img-fluid " alt="...">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Intelligence</h5>
+                                                    <p class="card-text">Wehavedevelopedintelligent software that instantly matches you withfloorplansbasedonyour
+                                                        requirements.</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card mb-3" style="">
+                                        <div class="row g-0">
+                                            <div class="col-md-2 v-center">
+                                                <img src="assets/img/explore/3.png" class="img-fluid " alt="...">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Intelligence</h5>
+                                                    <p class="card-text">Wehavedevelopedintelligent software that instantly matches you withfloorplansbasedonyour
+                                                        requirements.</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card mb-3" style="">
+                                        <div class="row g-0">
+                                            <div class="col-md-2 v-center">
+                                                <img src="assets/img/explore/4.png" class="img-fluid " alt="...">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Intelligence</h5>
+                                                    <p class="card-text">Wehavedevelopedintelligent software that instantly matches you withfloorplansbasedonyour
+                                                        requirements.</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-        </div>
-        <!--
+            </div>
+            <!--
          <div class="exploreHomeimg">
             <img src="assets/img/explore1sec.png" class="img-fluid" alt="">
         </div>
 -->
 
-    </div>
+        </div>
+    </section>
 
-
-    <div class="section2explore" id="section2explore">
-        <div class="container-fluid fluidgap">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="">
-                        <h2>Find a home builder</h2>
-                        <h1>in seconds</h1>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <div class="mobileCard">
-                                <div class="mobileImgdiv">
-                                    <img src="assets/img/exolorehomeMobileImg.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="text-center">
-                                    <h4>Begin</h4>
-                                    <p>Choose your suburb from the drop down menu.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                             <div class="mobileCard">
-                                <div class="mobileImgdiv">
-                                    <img src="assets/img/exolorehomeMobileImg.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="text-center">
-                                    <h4>Begin</h4>
-                                    <p>Choose your suburb from the drop down menu.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                             <div class="mobileCard">
-                                <div class="mobileImgdiv">
-                                    <img src="assets/img/exolorehomeMobileImg.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="text-center">
-                                    <h4>Begin</h4>
-                                    <p>Choose your suburb from the drop down menu.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                             <div class="mobileCard">
-                                <div class="mobileImgdiv">
-                                    <img src="assets/img/exolorehomeMobileImg.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="text-center">
-                                    <h4>Begin</h4>
-                                    <p>Choose your suburb from the drop down menu.</p>
-                                </div>
-                            </div>
+    <div class="exploremiddleClippath py-5"></div>
+    <!--section 2-->
+    <!--section 2-->
+    <!--section 2-->
+    <section class="section2">
+        <div class="section2explore" id="section2explore">
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col-lg-3 v-center">
+                        <div class="expsection2left">
+                            <h2 class="colorThemeYello">Find a home builder</h2>
+                            <h1 class="lite colorThemeYello">in seconds</h1>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="">
-                        <h4>Start your home building journey</h4>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum autem eaque recusandae consequatur illum ex pariatur perferendis non ipsa nostrum?</p>
+                    <div class="col-lg-6">
+                        <div class="row expsection2middle">
+                            <div class="col-lg-3">
+                                <div class="mobileCard">
+                                    <div class="mobileImgdiv">
+                                        <img src="assets/img/exolorehomeMobileImg.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="text-center content">
+                                        <h4 class="colorThemeYello">Begin</h4>
+                                        <p>Choose your suburb from the drop down menu.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="mobileCard">
+                                    <div class="mobileImgdiv">
+                                        <img src="assets/img/exolorehomeMobileImg.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="text-center content">
+                                        <h4 class="colorThemeYello">Begin</h4>
+                                        <p>Choose your suburb from the drop down menu.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="mobileCard">
+                                    <div class="mobileImgdiv">
+                                        <img src="assets/img/exolorehomeMobileImg.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="text-center content">
+                                        <h4 class="colorThemeYello">Begin</h4>
+                                        <p>Choose your suburb from the drop down menu.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="mobileCard">
+                                    <div class="mobileImgdiv">
+                                        <img src="assets/img/exolorehomeMobileImg.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="text-center content">
+                                        <h4 class="colorThemeYello">Begin</h4>
+                                        <p>Choose your suburb from the drop down menu.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 v-bottom">
+                        <div class="row justify-content-center">
+                            <div class="col-md-10">
+                                <div class="expsection2Right">
+                                    <h4 class="colorThemeYello">Start your home <br> building journey</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum autem eaque recusandae consequatur illum ex pariatur perferendis non ipsa nostrum?</p>
+                                    <div class="">
+                                        <button class="btn customButtonYello">EXPLORE HOME BUILDERS FOR FREE</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-      <div class="section3Explore" id="section3Explore">
-      <div class="container-fluid">
-         <div class="row">
-             <div class="col">
-                <div class="text-center"> <h3>Trusted by some of the largest home builders</h3></div>
-             </div>
-         </div>
-          <div class="row">
-              <div class="col">
-                  <div id="owl2" class="owl-carousel owl-theme">
-                      <div> <img src="assets/img/homeSliderLogo1.png" alt=""> </div>
-                      <div> <img src="assets/img/homeSliderLogo2.png" alt=""> </div>
-                      <div> <img src="assets/img/homeSliderLogo3.png" alt=""> </div>
-                      <div> <img src="assets/img/homeSliderLogo4.png" alt=""> </div>
-                      <div> <img src="assets/img/homeSliderLogo5.png" alt=""> </div>
-                      <div> <img src="assets/img/homeSliderLogo6.png" alt=""> </div>
-                      <div> <img src="assets/img/homeSliderLogo7.png" alt=""> </div>
-                      <div> <img src="assets/img/homeSliderLogo8.png" alt=""> </div>
-                      <div> <img src="assets/img/homeSliderLogo9.png" alt=""> </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-       <div class="section4Explore" id="section4Explore">
-       <div class="container-fluid fluidgap">
-           <div class="row ">
-               <div class="col-lg-5 v-center">
-                   <div class="text-center">
-                       <h2>"Now that wehave BuildPilot wedon't feel
-alone throughthebuildingprocess"
-</h2>
-                  
-                  <p>ohnathan Reed</p>
-                  <p>Adelaide, South Australia</p>
-                   </div>
-               </div>
-               <div class="col-lg-7">
-                   <div class="">
-                       <img src="assets/img/homesec9img.jpg" class="img-fluid" alt="">
-                   </div>
-               </div>
-           </div>
-       </div>
-   </div>
+
+    </section>
+    <!--    section 3-->
+    <!--    section 3-->
+    <!--    section 3-->
+    <section class="section3">
+        <div class="section3Explore colorThemebgYello" id="section3Explore">
+            <div class="container-fluid">
+                <div class="col v-center section3ExploreHeight">
+                    <div class="row">
+                        <div class="col">
+                            <div class="text-center">
+                                <h3 class="text-white">Trusted by some of the largest home builders</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-4">
+                        <div class="col">
+                            <div id="owl2" class="owl-carousel owl-theme">
+                                <div> <img src="assets/img/homeSliderLogo1.png" alt=""> </div>
+                                <div> <img src="assets/img/homeSliderLogo2.png" alt=""> </div>
+                                <div> <img src="assets/img/homeSliderLogo3.png" alt=""> </div>
+                                <div> <img src="assets/img/homeSliderLogo4.png" alt=""> </div>
+                                <div> <img src="assets/img/homeSliderLogo5.png" alt=""> </div>
+                                <div> <img src="assets/img/homeSliderLogo6.png" alt=""> </div>
+                                <div> <img src="assets/img/homeSliderLogo7.png" alt=""> </div>
+                                <div> <img src="assets/img/homeSliderLogo8.png" alt=""> </div>
+                                <div> <img src="assets/img/homeSliderLogo9.png" alt=""> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--  section 4-->
+    <!--  section 4-->
+    <!--  section 4-->
+    <section class="section4">
+        <div class="section4Explore" id="section4Explore">
+            <div class="container-fluid fluidgap">
+                <div class="row">
+                    <div class="col-lg-5 v-center section9homeHeight">
+                        <div class="text-center">
+                            <h3 class="text-white">"Now that wehave BuildPilot wedon't feel
+                                alone through the building process"
+                            </h3>
+
+                            <p class="text-white mb-0"><i>Johnathan Reed</i></p>
+                            <p class="text-white"><i>Adelaide, South Australia</i></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="">
+                            <img src="assets/img/homesec9img.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!--###########-->
     <!--###########-->
@@ -308,78 +347,84 @@ alone throughthebuildingprocess"
 
 
 
-    <footer>
+    <footer class="py-5">
         <div class="container-fluid fluidgap">
             <div class="row">
                 <img src="assets/img/logoblack.png" class="logo" alt="">
             </div>
             <div class="row pt-5">
                 <div class="col">
-                    <div class="">
+                    <div class="footerLists">
                         <h5>Features</h5>
-                        <p>Find the right home builder</p>
-                        <p>Find the right floor plan</p>
-                        <p>Milestones</p>
-                        <p>Build cost tracker</p>
-                        <p>Selections / inspiration feed</p>
-                        <p>Construction progress feed</p>
-                        <p>Floor plan &amp; elevation feed</p>
+                        <p><a href="#">Find the right home builder</a></p>
+                        <p><a href="#">Find the right floor plan</a></p>
+                        <p><a href="#">Milestones</a></p>
+                        <p><a href="#">Build cost tracker</a></p>
+                        <p><a href="#">Selections / inspiration feed</a></p>
+                        <p><a href="#">Construction progress feed</a></p>
+                        <p><a href="#">Floor plan &amp; elevation feed</a></p>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="">
+                    <div class="footerLists">
                         <h5>Features</h5>
-                        <p>Find the right home builder</p>
-                        <p>Find the right floor plan</p>
-                        <p>Milestones</p>
-                        <p>Build cost tracker</p>
-                        <p>Selections / inspiration feed</p>
-                        <p>Construction progress feed</p>
-                        <p>Floor plan &amp; elevation feed</p>
+                        <p><a href="#">Find the right home builder</a></p>
+                        <p><a href="#">Find the right floor plan</a></p>
+                        <p><a href="#">Milestones</a></p>
+                        <p><a href="#">Build cost tracker</a></p>
+                        <p><a href="#">Selections / inspiration feed</a></p>
+                        <p><a href="#">Construction progress feed</a></p>
+                        <p><a href="#">Floor plan &amp; elevation feed</a></p>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="">
+                    <div class="footerLists">
                         <h5>Features</h5>
-                        <p>Find the right home builder</p>
-                        <p>Find the right floor plan</p>
-                        <p>Milestones</p>
-                        <p>Build cost tracker</p>
-                        <p>Selections / inspiration feed</p>
-                        <p>Construction progress feed</p>
-                        <p>Floor plan &amp; elevation feed</p>
+                        <p><a href="#">Find the right home builder</a></p>
+                        <p><a href="#">Find the right floor plan</a></p>
+                        <p><a href="#">Milestones</a></p>
+                        <p><a href="#">Build cost tracker</a></p>
+                        <p><a href="#">Selections / inspiration feed</a></p>
+                        <p><a href="#">Construction progress feed</a></p>
+                        <p><a href="#">Floor plan &amp; elevation feed</a></p>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="">
+                    <div class="footerLists">
                         <h5>Features</h5>
-                        <p>Find the right home builder</p>
-                        <p>Find the right floor plan</p>
-                        <p>Milestones</p>
-                        <p>Build cost tracker</p>
-                        <p>Selections / inspiration feed</p>
-                        <p>Construction progress feed</p>
-                        <p>Floor plan &amp; elevation feed</p>
+                        <p><a href="#">Find the right home builder</a></p>
+                        <p><a href="#">Find the right floor plan</a></p>
+                        <p><a href="#">Milestones</a></p>
+                        <p><a href="#">Build cost tracker</a></p>
+                        <p><a href="#">Selections / inspiration feed</a></p>
+                        <p><a href="#">Construction progress feed</a></p>
+                        <p><a href="#">Floor plan &amp; elevation feed</a></p>
                     </div>
                 </div>
                 <div class="col ">&nbsp;</div>
             </div>
             <hr>
+            <div class="footericons">
+                <a href=""> <i class="bi bi-facebook"></i></a>
+                <a href=""> <i class="bi bi-instagram"></i></a>
+                <a href=""> <i class="bi bi-linkedin"></i></a>
+
+            </div>
             <div class="row">
                 <div class="col">
                     <div class="">
                         <ul class="nav ">
                             <li class="nav-item">
-                                <a class="nav-link disabled text-dark" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                <a class="nav-link disabled text-dark ps-0" href="#" tabindex="-1" aria-disabled="true">© BuildPilot 2022</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" aria-current="page" href="#">Active</a>
+                                <a class="nav-link text-dark" aria-current="page" href="#">Terms</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" href="#">Link</a>
+                                <a class="nav-link text-dark" href="#">Private Policy </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" href="#">Link</a>
+                                <a class="nav-link text-dark" href="#">Copyright</a>
                             </li>
 
                         </ul>
@@ -387,24 +432,11 @@ alone throughthebuildingprocess"
                 </div>
             </div>
 
-            <div class="">
-                <i class="bi bi-facebook"></i>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                </svg>
-                <i class="bi bi-instagram"></i>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                </svg>
-                <i class="bi bi-linkedin"></i>
-            </div>
+
         </div>
-
-
     </footer>
+
+
 
 
     <!--bootstrap cdn-->

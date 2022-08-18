@@ -213,8 +213,8 @@ background: white;
 /*section six*/
 .section6 {
     background: #FFBD59;
--webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
     margin-top: -5px;
 }
 /*section 7*/
@@ -223,32 +223,6 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
 .section7Hometitle {
    color: #FFBD59; 
 }
- .blogInside {
-    
-}
-
-
-.blogInside .content h5{
-    font-size: 18px
-}
-.blogInside .content h6{
-    font-size: 12px;
-    color: #48769C;
-        
-}
-.blogInside .content .tags a{
-        font-size: 10px;
-    padding: 4px 3px;
-    border: 1px solid #EAECEF;
-    color: #8B909F;
-
-}
-.blogInside .content p{
-    font-size: 14px;
-    color: #8B909F;
-}
-.blogInside .content {}
-
 
 /*section8*/
 /*section8*/
