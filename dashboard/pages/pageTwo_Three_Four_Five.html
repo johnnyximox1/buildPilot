@@ -60,21 +60,21 @@
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pillsTwo" type="button" role="tab" aria-controls="pillsTwo" aria-selected="false">
                                         <div class="">
-                                           <i class="bi bi-person-fill"></i>
+                                            <i class="bi bi-person-fill"></i>
                                         </div>
                                     </button>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pillsThree" type="button" role="tab" aria-controls="pillsThree" aria-selected="false">
                                         <div class="">
-                                           <i class="bi bi-person-fill"></i>
+                                            <i class="bi bi-person-fill"></i>
                                         </div>
                                     </button>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pillsFour" type="button" role="tab" aria-controls="pillsFour" aria-selected="false">
                                         <div class="">
-                                         <i class="bi bi-person-fill"></i>
+                                            <i class="bi bi-person-fill"></i>
                                         </div>
                                     </button>
                                 </li>
@@ -250,8 +250,8 @@
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
-                                                <div class="   bg-white ">
-                                                    <div class="d-grid border">
+                                                <div class="    ">
+                                                    <div class="d-grid ">
                                                         <button class="btn customButtonbd2tab2" type="button">Chandge Builder</button>
 
                                                     </div>
@@ -314,7 +314,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-lg-4">
-                                                <div class="d-flex  clearfix bg-white profileSignle">
+                                                <div class="d-flex  clearfix bg-white profileSignle" style="height: 270px;">
                                                     <div class="me-auto">Storeys</div>
                                                     <div class="">
                                                         <h6>Lorem ipsum.</h6>
@@ -407,10 +407,19 @@
                                                 </div>
 
                                             </div>
-                                            <div class="col-lg-4">
-                                                <div class="d-flex  clearfix bg-white profileSignle">
+                                            <div class="col-lg-4 ">
+                                                <div class="d-flex  clearfix bg-white profileSignle p-0">
                                                     <div class="me-auto">Storeys</div>
-                                                    <div class=""><b>Single Storey</b></div>
+                                                    <div class="">
+                                                        <form method="post" action="" enctype="multipart/form-data">
+                                                            <div class="">
+                                                                <label for="hiddenBtn" class="choose-btn " id="chooseBtn"><i class="bi bi-upload"></i></label>
+                                                                <input type="file" id="hiddenBtn" style="display: none;">
+
+                                                            </div>
+
+                                                        </form>
+                                                    </div>
 
                                                 </div>
 
@@ -540,6 +549,18 @@
 
     <!--bootstrap local-->
     <script src="../../assets/js/bootstrap.min.js"></script>
+    <script>
+        var hiddenBtn = document.getElementById('hiddenBtn');
+        var chooseBtn = document.getElementById('chooseBtn');
+
+        hiddenBtn.addEventListener('change', function() {
+            if (hiddenBtn.files.length > 0) {
+                chooseBtn.innerText = hiddenBtn.files[0].name;
+            } else {
+                chooseBtn.innerText = 'Choose';
+            }
+        });
+    </script>
 
 </body>
 

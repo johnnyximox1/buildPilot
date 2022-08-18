@@ -49,7 +49,18 @@
 /*page 2*/
 /*page 2*/
 /*page 2*/
+.dashboard2sec1 .choose-btn {
+   
+    
+    float: left;
 
+    color: black;
+
+    text-align: center;
+    cursor: pointer;
+    font-family: arial;
+    font-size: 13px;
+}
 .dashboard2sec1 {
     background-position: center 80%;
 }
@@ -61,6 +72,13 @@
        background: white;
     border-radius: 0px;
 }
+
+
+.dashboard2sec1 .nav-pills .nav-item .nav-link.active i{
+color:  #FFBD59;  
+    
+}
+
 .dashboard2sec1 .nav-pills .nav-item:first-child button.nav-link{
 
     border-radius: 50px 0px 0px 50px;
@@ -164,7 +182,7 @@ padding: 25px;
   float: right;
 }
 
-.
+
 .dashboard14sec1 input[type=file] {
     display: none;
 }
@@ -190,18 +208,4 @@ padding: 25px;
     visibility: hidden;
     position: absolute;
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-You have no unread notifications
+
