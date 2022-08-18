@@ -5,6 +5,9 @@
 /*dashboard page 1*/
 .dashboard1sec1{  
     margin-top: -80px;
+/*    background-position: center 85%;*/
+}
+.bgPosition {
     background-position: center 85%;
 }
 .pageheight {
@@ -49,6 +52,24 @@
 /*page 2*/
 /*page 2*/
 /*page 2*/
+
+.infoicon button{   
+    position: absolute;
+    left: 5px;
+    bottom: 2px;
+    background: none;
+    padding: 0px;
+    border: none;
+}
+.infoicon button:hover {
+    background: none;
+    border: none;
+}
+.infoicon button:hover i{
+color: #FFBD59;
+}
+.infoicon button i{color: black;
+}
 .dashboard2sec1 .choose-btn {
    
     
@@ -59,7 +80,7 @@
     text-align: center;
     cursor: pointer;
     font-family: arial;
-    font-size: 13px;
+    font-size: 16px;
 }
 .dashboard2sec1 {
     background-position: center 80%;
@@ -149,9 +170,23 @@ padding: 25px;
     border: none;
     background: white;
 }
+/*page 9*/
+/*page 9*/
+/*page 9*/
+.cardoverflow{
+    height: 500px;
+    overflow: scroll;
+}
+.cardoverflow::-webkit-scrollbar {
+  display: none;
+}
 .dashboard9sec1 .card {
     margin: 0 auto;
+    background: transparent;
+    border: none;
 }
+.dashboard9sec1 .card .icon i {
+ font-size: 40px;}
 #myPanzoom {
     height: 500px;
     width: 100%;
@@ -188,18 +223,19 @@ padding: 25px;
 }
 .dashboard14sec1 .choose-btn {
     border-radius: 2px;
-    margin: 10px;
+/*    margin: 10px;*/
     float: left;
-    background: #555;
-    color: #fff;
-    padding: 10px;
+    background: white;
+    color: #FFBD59;
+    padding: 15px;
     text-align: center;
     cursor: pointer;
     font-family: arial;
-    font-size: 13px;
+    font-size: 14px;
 }
 .dashboard14sec1 .choose-btn:hover {
-    background: #24c7c7;
+    background: #FFBD59;
+    color: white;
 }
 .dashboard14sec1.buildpackRwo{
     position: relative;
@@ -209,3 +245,32 @@ padding: 25px;
     position: absolute;
 }
 
+
+.dashboard10sec1 .uploadbutton   {
+    
+}
+.dashboard10sec1 .uploadbutton .nav   {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom:30px;
+}
+.dashboard10sec1 .uploadbutton .nav .nav-item   {
+    background: white;
+}
+.dashboard10sec1 .uploadbutton .nav .nav-item:first-child   {
+border-radius: 50px 0px 0px 50px;
+}
+.dashboard10sec1 .uploadbutton .nav .nav-item:last-child   {
+border-radius: 0px 50px 50px 0px;
+}
+.dashboard10sec1 .uploadbutton .nav .nav-item i  {
+    color: #FFBD59;
+}
+.page10Scrollcontent {
+    height: 580px;
+    overflow: scroll;
+}
+.page10Scrollcontent::-webkit-scrollbar {
+  display: none;
+}
