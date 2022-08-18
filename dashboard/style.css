@@ -1,31 +1,4 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@johnnyximox1 
-johnnyximox1
-/
-buildPilot
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-buildPilot/dashboard/style.css
-@johnnyximox1
-johnnyximox1 18 aug 2022/ 11:51
-Latest commit 6ad3307 4 hours ago
- History
- 1 contributor
-146 lines (131 sloc)  2.67 KB
+
 
 /*dashboard page 1*/
 /*dashboard page 1*/
@@ -60,6 +33,9 @@ Latest commit 6ad3307 4 hours ago
 .dashpageOneBox .icon svg {
     fill:#FFBD59;
 }
+.dashpageOneBox:hover .icon svg {
+    fill: black;
+}
 .dashpageOneBox .icon  {
     padding-top: 20px;
 }
@@ -69,9 +45,42 @@ Latest commit 6ad3307 4 hours ago
 
 
 /*page 2*/
+/*page 2*/
+/*page 2*/
+/*page 2*/
+/*page 2*/
+
+.dashboard2sec1 {
+    background-position: center 80%;
+}
+.dashboardTopPadding {
+    padding-top: 100px;
+}
+
+.dashboard2sec1 .nav-pills .nav-item .nav-link{
+       background: white;
+    border-radius: 0px;
+}
+.dashboard2sec1 .nav-pills .nav-item:first-child button.nav-link{
+
+    border-radius: 50px 0px 0px 50px;
+}
+
+.dashboard2sec1 .nav-pills .nav-item:last-child button.nav-link{
+
+    border-radius: 0px 50px 50px 0px;
+}
+
+
+.dashboard2sec1 .nav-pills .nav-item .nav-link i{
+   color: #706F6F;
+}
+.dashboard2sec1 .nav-pills .nav-item:hover .nav-link i{
+   color: #FFBD59;
+}
 
 .tab-pane {
-    margin-top: -60px;
+/*    margin-top: -60px;*/
 }
 h1.dashboardTitle {
     font-size: 40px;
@@ -86,16 +95,24 @@ h1.dashboardTitle {
 .fixedWidthContainer .container {
     width: 1000px !important;
 }
+
 .profileDetails .profileSignle {
   
 padding: 25px;
+    border-radius: 10px;
  
 }
-.builderDetails .profileSignle {
-  
-padding: 25px;
- 
+
+.customButtonbd2tab2 {
+    background: white;
+    color: #FFBD59;
+    border: none;
+    border-radius: 10px;
+    height: 74px;
+    font-size: 25px;
+    
 }
+
 .dashboardPageSeven .profileSignle{
     margin: 0px 25px;
     padding: 25px 0px;
